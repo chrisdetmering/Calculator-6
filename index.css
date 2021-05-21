@@ -7,7 +7,7 @@ body {
 
 .holder {
   border: 5px solid black;
-  background-color: aqua;
+  background-color: rgba(0, 140, 255, 0.876);
   border-radius: 10px;
   width: 500px;
   height: 600px;
@@ -19,7 +19,7 @@ body {
 .container {
   border: 3px solid sandybrown;
   border-radius: 5px;
-  background-color: darkred;
+  background-color: rgb(0, 37, 139);
 }
 
 .btn {
@@ -28,7 +28,17 @@ body {
   border-radius: 50%;
   padding: 10px;
   margin: 5px;
-  background-color: darkolivegreen;
+  background-color: rgba(240, 255, 255, 0.712);
+  text-align: center;
+  font-size: 40px;
+}
+
+.btn:hover {
+  background-color: red;
+}
+
+.mem {
+  font-size: 35px;
 }
 
 .display {
@@ -36,10 +46,13 @@ body {
   width: 430px;
   height: 50px;
   margin: 20px;
+  background-color: azure;
 }
 
 .output {
-  align-self: flex-end;
+  text-align: right;
+  padding-top: 8px;
+  padding-right: 10px;
 }
 
 .btn-hold {
